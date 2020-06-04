@@ -1,6 +1,6 @@
 [package]
 name = "concat_strs"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["Rebecca Turner <rbt@sent.as>"]
 description = "Macro for quickly building a String from components."
 edition = "2018"
@@ -19,7 +19,7 @@ categories = [
 path = "lib.rs"
 
 [dependencies]
-concat_strs_impl = { path = "../impl", version = "1.0.0" }
+concat_strs_impl = { path = "../impl", version = "1.0.1" }
 proc-macro-hack = "0.5"
 
 [dev-dependencies]

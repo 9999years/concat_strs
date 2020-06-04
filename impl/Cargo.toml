@@ -1,6 +1,6 @@
 [package]
 name = "concat_strs_impl"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Rebecca Turner <rbt@sent.as>"]
 edition = "2018"
 description = "Implementation for the concat_strs crate."
