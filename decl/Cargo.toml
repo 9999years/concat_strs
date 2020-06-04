@@ -19,7 +19,7 @@ categories = [
 path = "lib.rs"
 
 [dependencies]
-concat_strs_impl = { path = "../impl" }
+concat_strs_impl = { path = "../impl", version = "1.0.0" }
 proc-macro-hack = "0.5"
 
 [dev-dependencies]
