@@ -1,6 +1,6 @@
 [package]
 name = "concat_strs"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Rebecca Turner <rbt@sent.as>"]
 description = "Macro for quickly building a String from components."
 edition = "2018"
