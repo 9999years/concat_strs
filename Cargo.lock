@@ -75,7 +75,7 @@ dependencies = [
 
 [[package]]
 name = "concat_strs"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "concat_strs_impl",
  "criterion",
@@ -84,7 +84,7 @@ dependencies = [
 
 [[package]]
 name = "concat_strs_impl"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "proc-macro-hack",
  "proc-macro2",

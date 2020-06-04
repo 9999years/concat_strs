@@ -1,3 +1,7 @@
+//! Implementation crate for `concat_strs`, needed for [`proc_macro_hack`][proc_macro_hack]
+//!
+//! [proc_macro_hack]: https://docs.rs/proc-macro-hack/
+
 use proc_macro as pm;
 use proc_macro2::{Span, TokenStream};
 use proc_macro_hack::proc_macro_hack;
@@ -6,6 +10,7 @@ use syn::parse::{Parse, ParseStream};
 use syn::punctuated::Punctuated;
 use syn::token;
 
+/// `concat_strs` macro; see documentation for the `concat_strs` crate for more information.
 #[proc_macro_hack]
 pub fn concat_strs(input: pm::TokenStream) -> pm::TokenStream {
     let macro_input = syn::parse_macro_input!(input as ConcatStrs);

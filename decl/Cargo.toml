@@ -1,8 +1,17 @@
 [package]
 name = "concat_strs"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Rebecca Turner <rbt@sent.as>"]
+description = "Macro for quickly building a String from components."
 edition = "2018"
+readme = "../README.md"
+repository = "https://github.com/9999years/concat_strs"
+license = "AGPL-3.0"
+keywords = ["string", "macro"]
+categories = [
+    "development-tools",
+    "rust-patterns"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
